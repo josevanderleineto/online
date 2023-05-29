@@ -16,7 +16,24 @@
     line-height: 2.25rem;
     margin-bottom: 1.5rem;
 }
- 
+
+.portifolio {
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+.link {
+   font-size: 20pt;
+   font-weight: 600;
+}
+
+.link:hover {
+    font-size: 25pt;
+    font-weight: 900;
+    transition: 3ms;
+}
+
+
 @media (max-width: 1100px) {
     .fotoSobreMim {
         float: none;

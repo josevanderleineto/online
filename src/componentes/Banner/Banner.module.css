@@ -1,6 +1,6 @@
 .banner {
     padding: 3rem 7.5rem 6.25rem;
-    background-color: var(--azul-escuro);
+    background-image: linear-gradient(to right, #8C52FF, #5CE1E6);
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
