@@ -1,6 +1,6 @@
 .banner {
     padding: 3rem 7.5rem 6.25rem;
-    background-image: linear-gradient(to right, #8C52FF, #5CE1E6);
+    background-image: linear-gradient(to left, #8C52FF, #5CE1E6);
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -8,7 +8,7 @@
  
 .titulo {
     font-family: var(--fonte-secundaria);
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 4.875rem;
     margin-bottom: 2rem;
 }
@@ -75,7 +75,7 @@
     }
  
     .titulo {
-        margin-bottom: 2rem;
+        margin-bottom: 0.6rem;
     }
  
     .paragrafo {
@@ -93,12 +93,16 @@
     }
    
     .imagens > .minhaFoto {
-        width: 170px;
+        width: 130px;
         transform: translate(5rem, 0px);
+         margin-bottom: 170px;
     }
    
     .imagens > .circuloColorido {
-        width: 240px;
+        width: 190px;
         transform: translate(-1.5rem, 0px);
+        margin-bottom: 125px;
     }
 }
+
+

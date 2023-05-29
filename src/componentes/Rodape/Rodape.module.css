@@ -1,5 +1,5 @@
 .rodape {
-    background-image: linear-gradient(to left, #8C52FF, #5CE1E6);
+    background-image: linear-gradient(to right, #8C52FF, #5CE1E6);
     color: var(--branco);
     padding: 2rem 0;
     display: flex;

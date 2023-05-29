@@ -29,7 +29,7 @@ export default function SobreMim() {
       <p className={styles.portifolio}>
         {/* Link direto para o site do seu portfólio */}
         <a href="https://www.vanderleinetoweb.tech/" className={styles.link}>
-          Visite meu site de portfólio
+        Clique <strong>aqui</strong>  e Visite meu site de portfólio
         </a>{" "}
         e confira alguns dos meus projetos.
       </p>
@@ -43,11 +43,9 @@ export default function SobreMim() {
       </p>
 
       <p className={styles.paragrafo}>
-        Agradeço por visitar meu site e por dedicar um tempo para conhecer um pouco mais sobre mim e meu trabalho. Espero que esta seja apenas o começo de uma jornada incrível!
+        Agradeço por visitar meu site e por dedicar um tempo para conhecer um pouco mais sobre mim e meu trabalho. 
       </p>
-      <p className={styles.paragrafo}>
-        Espero que essa revisão atenda às suas necessidades. Se você tiver mais perguntas ou precisar de mais ajuda, estou à disposição!
-      </p>
+      
 
       
     </PostModelo>

@@ -1,9 +1,10 @@
 .navegacao {
-    height: 112px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 3rem;
+    background-image: linear-gradient(to left, #8C52FF, #5CE1E6);
 }
 
  
