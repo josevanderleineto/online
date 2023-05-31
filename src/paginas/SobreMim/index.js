@@ -68,8 +68,33 @@ const SobreMim = () => {
                 scrollIndex === 2 ? styles.active : ""
               }`}
             >
-              Na área de desenvolvimento web, construo sites e possuo conhecimentos sólidos. Realizei o curso de Desenvolvimento Web na Mais1Code, no projeto Reprogamando a Quebrada, em parceria com o Instituto NU. Essa formação me ajudou a adquirir habilidades técnicas e aprimorar minhas capacidades de criação e desenvolvimento de sites de alta qualidade.
+             Na área de desenvolvimento web, sou especializado em construir sites e aplicações web. Possuo conhecimentos sólidos e uma formação em Desenvolvimento Web pela Mais1Code, no projeto Reprogamando a Quebrada, em parceria com o Instituto NU. Essa formação foi fundamental para adquirir habilidades técnicas avançadas e aprimorar minha capacidade de criação e desenvolvimento de sites de alta qualidade.
             </p>
+
+               <p
+              className={`${styles.paragrafo} ${
+                scrollIndex === 2 ? styles.active : ""
+              }`}
+            >
+            Estou pronto para ajudar você a ter uma presença online impressionante. Se você está buscando um site personalizado e eficiente para sua empresa ou projeto, entre em contato comigo e solicite seu orçamento. Estou disponível para discutir suas necessidades e oferecer soluções sob medida para o seu negócio.
+            </p>
+
+              <p
+              className={`${styles.paragrafo} ${
+                scrollIndex === 2 ? styles.active : ""
+              }`}
+            >
+            Acredito na importância de construir relacionamentos de longo prazo com meus clientes, por isso, além de entregar um trabalho de qualidade, estou comprometido em fornecer suporte contínuo e estar disponível para atualizações futuras. Seu sucesso é minha prioridade.
+            </p>
+
+              <p
+              className={`${styles.paragrafo} ${
+                scrollIndex === 2 ? styles.active : ""
+              }`}
+            >
+            
+            </p>
+
             <p
               className={`${styles.paragrafo} ${
                 scrollIndex === 3 ? styles.active : ""

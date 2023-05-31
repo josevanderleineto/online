@@ -84,7 +84,7 @@ strong {
 
 .scrollButton {
     border-radius: 50%;
-    background-color: #7a6e94;;
+     background-image: linear-gradient(to right, #8C52FF, #5CE1E6);
     border: none;
     cursor: pointer;
     outline: none;
@@ -93,7 +93,7 @@ strong {
 }
 
 .arrow {
-    border: solid black;
+    border: solid #fff;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
