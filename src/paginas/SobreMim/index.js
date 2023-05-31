@@ -61,7 +61,7 @@ const SobreMim = () => {
                 scrollIndex === 1 ? styles.active : ""
               }`}
             >
-              Em destaque, coordenei a produção do livro 'Retratos do Parguaçu', um projeto que busca retratar a vida e a história das comunidades quilombolas do Parguaçu por meio de fotografias e relatos. Essa experiência permitiu-me mergulhar nas riquezas culturais e nas vivências dessas comunidades, e reforçou ainda mais minha convicção sobre o poder da cultura como agente de transformação social.
+              Em destaque, coordenei a produção do livro 'Retratos do Parguaçu', um projeto que busca retratar a vida e as obras de 20 artistas visuais da cidade histórica de <em>Cachoeira/BA</em>, isso  reforçou ainda mais minha convicção sobre o poder da cultura como agente de transformação social.
             </p>
             <p
               className={`${styles.paragrafo} ${

@@ -13,7 +13,7 @@ export default function Banner() {
                 </h1>
 
                 <p className={styles.paragrafo}>
-                    Meu nome é Vanderlei Neto sou produtor cultural e Desenvolvedor Front-end apaixonado pela criação de interfaces.
+                    Meu nome é Vanderlei Neto sou Produtor Cultural e Desenvolvedor Web Front-end apaixonado pela criação de interfaces.
                 </p>
             </div>
 
