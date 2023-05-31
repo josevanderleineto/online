@@ -5,6 +5,7 @@
 }
  
 :root {
+  --linear-gradient: linear-gradient(to top, #7a6e94, #c217b4);
   --azul-escuro: #041833;
   --azul-medio: #1875E8;
   --cor-fonte-principal: #041833;

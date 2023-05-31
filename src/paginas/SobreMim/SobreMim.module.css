@@ -37,8 +37,73 @@ strong {
     font-weight: 900;
     transition: 3ms;
 }
+/* SobreMim.module.css */
 
+.subtitulo {
+    /* Estilos para o subtítulo */
+}
 
+.fotoSobreMim {
+    /* Estilos para a foto do Vanderlei */
+}
+
+.paragraphContainer {
+    height: 100vh;
+    overflow-y: scroll;
+}
+/* SobreMim.module.css */
+
+.subtitulo {
+    /* Estilos para o subtítulo */
+}
+
+.fotoSobreMim {
+    /* Estilos para a foto do Vanderlei */
+}
+
+.paragraphContainer {
+    height: 100vh;
+    overflow: hidden;
+    /* Oculta a barra de rolagem */
+}
+
+.paragrafo {
+    /* Estilos para os parágrafos */
+}
+
+.paragrafo.active {
+    /* Estilos para o parágrafo ativo */
+}
+
+.scrollButtonContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+}
+
+.scrollButton {
+    border-radius: 50%;
+    background-color: #7a6e94;;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 40px;
+    height: 40px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+.scrollButton.up .arrow {
+    transform: rotate(-135deg);
+}
 @media (max-width: 1100px) {
     .fotoSobreMim {
         float: none;

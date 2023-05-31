@@ -3,7 +3,21 @@
     color: var(--branco);
     padding: 2rem 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     column-gap: .5rem;
+
+}
+
+.rodape a {
+    font-weight: bolder;
+}
+
+.rodape p {
+    font-weight: bolder;
+}
+
+.rodape div {
+    text-align: center;
 }
