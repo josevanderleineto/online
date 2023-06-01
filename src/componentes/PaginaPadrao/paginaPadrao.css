@@ -1,0 +1,5 @@
+.main {
+    min-height: calc(100vh - 50px);
+        /* Altura mínima da página, considerando o rodapé */
+     padding-bottom: 50px;
+}

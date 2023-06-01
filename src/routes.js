@@ -1,5 +1,4 @@
 import PaginaPadrao from "componentes/PaginaPadrao";
-import Rodape from "componentes/Rodape";
 import ScrollToTop from "componentes/ScrollToTop";
 import NaoEncontrada from "paginas/NaoEncontrada";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -22,8 +21,8 @@ function AppRoutes() {
         <Route path="*" element={<NaoEncontrada />} />
       </Routes>
 
-      <Rodape />
     </BrowserRouter>
+  
   );
 }
 
