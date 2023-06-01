@@ -20,9 +20,7 @@ function AppRoutes() {
         
         <Route path="*" element={<NaoEncontrada />} />
       </Routes>
-
-    </BrowserRouter>
-  
+    </BrowserRouter>  
   );
 }
 

@@ -36,9 +36,24 @@ const SobreMim = () => {
             <img src={fotoSobreMim} alt="Foto do Vanderlei" className={styles.fotoSobreMim} />
           </div>
       </article>
-      
+
+     
     </>
   );
 };
+
+const RodaPe = () => {
+  return (
+     <footer className="rodape">
+        <div>
+      <a href="mailto:jvn.neto@protonmail.com" className='email'>
+        <p >jvn.neto@protonmail.com</p>
+      </a>
+      <p className='progamador'>&copy; Desenvolvido por Vanderlei Neto</p>
+      </div>
+      </footer>
+      
+  )
+}
 
 export default SobreMim;
