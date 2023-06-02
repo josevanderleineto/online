@@ -9,16 +9,16 @@ export default function SobreMim() {
         
         <PostModelo
             fotoCapa={fotoCapa}
-            titulo="Sobre mim"
+            titulo="Sobre mim" 
         >
            
             <h3 className={styles.subtitulo} id="titulo">
-                Olá, eu sou o Antônio!
+                Conheça meu trabalho!
             </h3>
 
             <img
                 src={fotoSobreMim}
-                alt="Foto do Antônio Evaldo sorrindo"
+                alt="Foto do  Vanderlei"
                 className={styles.fotoSobreMim}
             />
 
