@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./componentes/Menu";
 import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
+import Rodape from "componentes/Rodape";
 
 function AppRoutes() {
   return (
@@ -20,6 +21,7 @@ function AppRoutes() {
         
         <Route path="*" element={<NaoEncontrada />} />
       </Routes>
+      <Rodape />
     </BrowserRouter>  
   );
 }

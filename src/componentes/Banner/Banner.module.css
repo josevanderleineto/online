@@ -4,6 +4,7 @@
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 500px;
 }
  
 .titulo {
@@ -40,15 +41,24 @@
     width: 25vw;
 }
  
+a img  {
+    width: 60px;
+}
+
+a img {
+    width: 40px;
+}
 
 @media (max-width: 1100px) {    
     .banner {
         padding: 3.5rem 1.5rem;
+        height: 50rem;
     }
  
     .titulo {
         margin-top: 0;
         margin-bottom: 1.5rem;
+        
     }
  
     .paragrafo {
@@ -73,18 +83,23 @@
     .banner {
         padding: 2rem 1rem;
         display: block;
+        height: 650px;
     }
  
     .titulo {
         margin-bottom: 0.6rem;
+        font-size: 16pt;
+        font-weight: 800;
     }
  
     .paragrafo {
         margin-bottom: 2rem;
+        font-size: 12pt;
+        font-weight: 800;
     }
  
     .imagens {
-        height: 307px;
+        height: 257px;
     }
  
     .imagens > .minhaFoto, .imagens > .circuloColorido {

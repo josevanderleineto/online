@@ -3,7 +3,6 @@
 //import PostCard from 'componentes/PostCard';
 //import HamburgerMenuInicio from 'componentes/HamburgerMenuInicio';
 
-import Rodape from "componentes/Rodape"
 
 export default function Inicio() {
   //const navigateToSection = () => {
@@ -11,11 +10,5 @@ export default function Inicio() {
    // inicioSection.scrollIntoView({ behavior: 'smooth' });
   //};
 
-  return (
-
-       //<HamburgerMenuInicio />
- <Rodape/>
-
-    
- );
+  
 }
