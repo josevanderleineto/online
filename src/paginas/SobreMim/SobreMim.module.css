@@ -81,7 +81,19 @@ strong {
         display: block;
         margin: 0 auto 2rem;
         width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    .subtitulo {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .paragrafo {
+        font-size: 1rem;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -90,7 +102,17 @@ strong {
         max-width: 300px;
         height: auto;
         margin-top: 1rem;
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .subtitulo {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .paragrafo {
+        font-size: 1rem;
     }
 }
 

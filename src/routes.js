@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./componentes/Menu";
 import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
+import Projetos from './paginas/Projetos'
 import Rodape from "componentes/Rodape";
 
 function AppRoutes() {
@@ -17,6 +18,8 @@ function AppRoutes() {
         <Route path="/" element={<PaginaPadrao />}>
           <Route index element={<Inicio />} />
           <Route path="sobremim" element={<SobreMim />} />
+        <Route path="projetos" element={<Projetos />} />
+
         </Route>
         
         <Route path="*" element={<NaoEncontrada />} />
