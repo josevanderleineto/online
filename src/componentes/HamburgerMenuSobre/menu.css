@@ -4,8 +4,8 @@
 
 .hamburger {
     position: fixed;
-    top: 20px;
-    left: 20px;
+    top: 8px;
+    left: 2px;
     width: 30px;
     height: 20px;
     display: flex;
@@ -18,7 +18,7 @@
 .line {
     width: 100%;
     height: 2px;
-    background-color: #4e0d99;
+    background-color: #fff;
 }
 
 .line:hover {
@@ -59,4 +59,11 @@
 
 .sidebar li:first-child {
     margin-top: 20px;
+}
+
+
+@media (max-width: 744px) {
+    .hamburger {
+        top: 26px;
+    }
 }

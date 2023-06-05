@@ -2,9 +2,7 @@
 import MenuLink from '../MenuLink';
 import styles from './Menu.module.css';
 
-/*<MenuLink to="/projetos">
-                    Projetos
-                </MenuLink>*/
+/**/
 
 export default function Menu() {
     return (
@@ -18,6 +16,10 @@ export default function Menu() {
                 </MenuLink>
                 <MenuLink to="/sobremim">
                     Sobre Mim
+                </MenuLink>
+
+                <MenuLink to="/projetos">
+                    Projetos
                 </MenuLink>
                 
             </nav>

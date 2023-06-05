@@ -7,3 +7,9 @@
 .linkDestacado {
     text-decoration: underline;
 }
+
+@media (max-width: 744px) {
+    .link {
+        font-size: 1.10rem;
+    }
+}
