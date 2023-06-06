@@ -21,6 +21,14 @@
     padding-right: 50px;
 }
 
+.paragrafo strong {
+    text-align: justify;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        margin-bottom: 1.5rem;
+        padding-left: 50px;
+        padding-right: 50px;
+}
 .portifolio {
     font-size: 20pt;
     font-weight: 600;

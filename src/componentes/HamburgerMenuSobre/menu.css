@@ -21,10 +21,6 @@
     background-color: #fff;
 }
 
-.line:hover {
-    height: 4px;
-    background-image: linear-gradient(to top, #8C52FF, #5CE1E6);
-}
 
 .sidebar {
     position: fixed;
@@ -33,7 +29,7 @@
     width: 121px;
     height: 200px;
     padding: 20px;
-    background-image: linear-gradient(to bottom, #8C52FF, #5CE1E6);
+    background-image: linear-gradient(to bottom, #bbbbfa, #c8ffff);
     z-index: 0;
     transition: transform 0.3s ease;
 }
@@ -53,7 +49,6 @@
 .sidebar li:hover {
     font-weight: 900;
     text-decoration: underline;
-    background-image: linear-gradient(to right, #8C52FF, #5CE1E6);
     border-radius: 10%;
 }
 
@@ -61,6 +56,13 @@
     margin-top: 20px;
 }
 
+a img {
+    width: 30px;
+}
+
+a img:hover {
+    width: 40px;
+}
 
 @media (max-width: 744px) {
     .hamburger {

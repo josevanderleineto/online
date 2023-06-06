@@ -12,7 +12,7 @@ const Projetos = () => {
             alt="Foto da capa do livro retratos do paraguaçu"
             className={styles.projetosImg}
           />
-                    <a href="#" all="Saiba mais">Saiba Mais</a>
+                    <a href="https://www.instagram.com/quilombos_/" target="" all="Saiba mais">Saiba Mais</a>
 
           <h2 className={styles.subtitulo} id="titulo">
             Retratos do Paraguaçu
@@ -27,7 +27,7 @@ const Projetos = () => {
             alt="Foto da capa do livro retratos do paraguaçu"
             className={styles.projetosImg}
           />
-        <a href="#" all="Saiba mais">Saiba Mais</a>
+        <a href="https://www.instagram.com/quilombos_/" target="" all="Saiba mais">Saiba Mais</a>
 
           <h2 className={styles.subtitulo} id="titulo">
             Quilombos 
@@ -40,5 +40,6 @@ const Projetos = () => {
     </div>
   );
 };
+
 
 export default Projetos;
