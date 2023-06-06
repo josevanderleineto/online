@@ -6,7 +6,7 @@ const Projetos = () => {
   return (
     <div className={`${styles.projetos}`}>
       <div>
-        <div className="projeto">
+        <div className="projeto" id="seta">
           <img
             src={retratosdoparaguacu}
             alt="Foto da capa do livro retratos do paraguaçu"

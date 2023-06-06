@@ -5,7 +5,7 @@
 .hamburger {
     position: fixed;
     top: 8px;
-    left: 2px;
+    left: 20px;
     width: 30px;
     height: 20px;
     display: flex;
@@ -58,6 +58,7 @@
 
 a img {
     width: 30px;
+    padding-top: 5px;
 }
 
 a img:hover {
@@ -66,6 +67,13 @@ a img:hover {
 
 @media (max-width: 744px) {
     .hamburger {
-        top: 26px;
+        top: 25px;
+        padding-right: 5px;
     }
+
+
+   a img {
+      width: 25px;
+      padding-top: 16px;
+        }
 }

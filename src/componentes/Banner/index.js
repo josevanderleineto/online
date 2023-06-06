@@ -18,7 +18,7 @@ export default function Banner() {
                 <p className={styles.paragrafo}>
                     Meu nome é Vanderlei Neto sou Produtor Cultural e Desenvolvedor Web Front-end apaixonado pela criação de interfaces.
                 </p>
-                 <a href="#titulo" className="scroll"><img src='https://cdn-icons-png.flaticon.com/128/6780/6780351.png' className='seta' alt='Foto de seta apontando para baixo'/></a>
+                 <a href="#seta" className="scroll"><img src='https://cdn-icons-png.flaticon.com/128/6780/6780351.png' className='seta' alt='Foto de seta apontando para baixo'/></a>
             
             </div>
 

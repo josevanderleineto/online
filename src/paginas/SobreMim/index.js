@@ -9,9 +9,9 @@ export default function SobreMim() {
         <PostModelo
             fotoCapa={fotoCapa}
             titulo="Sobre mim"
-            id="titulo"
+            
         >
-            <h3 className={styles.subtitulo}>
+            <h3 className={styles.subtitulo} id="seta">
                 Quem eu sou?
             </h3>
 
