@@ -1,7 +1,11 @@
 .projetos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    /* Alterado para centralizar os elementos */
+    align-items: center;
+    /* Alterado para centralizar verticalmente */
+    width: 100%;
     background-color: rgb(230, 227, 227);
 }
 
@@ -9,62 +13,22 @@
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
-    flex-basis: calc(40% - 10px);
-    /* Reduzindo o tamanho da flex-basis */
-    margin-right: 20px;
-    /* Reduzindo o espaço entre as divs */
-}
-
-.projetos>div:last-child {
-    margin-right: 0;
-    /* Removendo a margem direita da última div */
-}
-
-.projetosImg {
-    width: 220px;
-    padding: 40px 0px 20px 40px;
-}
-
-.subtitulo {
-    padding-left: 40px;
-    font-size: small;
-}
-
-.paragrafo {
-    font-size: 10pt;
-    padding-left: 40px;
-    text-align: left;
-}
-
-
-.projetos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.projetos>div {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
     flex-basis: calc(30% - 10px);
-    /* Reduzindo o tamanho da flex-basis para dispositivos não móveis */
     margin-right: 20px;
-    /* Reduzindo o espaço entre as divs para dispositivos não móveis */
-}
-
-.projetos>div:last-child {
-    margin-right: 0;
-    /* Removendo a margem direita da última div */
+    padding: 16px;
+    box-sizing: border-box;
 }
 
 .projetosImg {
-    width: 220px;
+    width: 100%;
     padding: 40px 0px 20px 40px;
+    width: 200px;
 }
- .projetosImg img {
-    height: 500px;
- }
+
+.projetosImg:hover {
+    transform: scale(1.1);
+}
+
 .subtitulo {
     padding-left: 40px;
     font-size: small;
@@ -75,35 +39,32 @@
     padding-left: 40px;
     text-align: left;
 }
- .projetos a {
-    color: rgb(131, 158, 240);
 
+.projetos a {
+    color: rgb(131, 158, 240);
     font-size: 13pt;
     font-weight: 600;
     padding-left: 40px;
     text-transform: uppercase;
- }
+}
 
- .projetos a:hover {
+.projetos a:hover {
     font-size: 17pt;
     font-weight: 900;
     text-decoration: underline;
-
- }
-
- 
+}
 
 /* Versão Mobile */
 @media (max-width: 744px) {
     .projetos>div {
         display: block;
-        
     }
 
     .projetos div {
-        padding: 40px;
+        padding: 16px;
     }
 
-    
-    
+    .projetosImg {
+        width: 300px;
+    }
 }
