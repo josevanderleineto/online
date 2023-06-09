@@ -18,7 +18,7 @@ const Projetos = () => {
               className={styles.projetosImg}
             />
             <figcaption>
-              <a href="https://www.instagram.com/retratosdoparaguacu/" target="" all="Link de aceeso do projeto">Saiba Mais</a>
+              <a href="https://www.instagram.com/retratosdoparaguacu/" target="_blank" rel="noreferrer noopener" all="Link de aceeso do projeto">Saiba Mais</a>
               <h2 className={styles.subtitulo} id="titulo">
                 Retratos do Paraguaçu
               </h2>
@@ -36,7 +36,7 @@ const Projetos = () => {
               className={styles.projetosImg}
             />
             <figcaption>
-              <a href="https://www.instagram.com/quilombos_/" target="" all="Saiba mais">Saiba Mais</a>
+              <a href="https://www.instagram.com/quilombos_/" target="_blank" rel="noreferrer noopener" all="Saiba mais">Saiba Mais</a>
               <h2 className={styles.subtitulo} id="titulo">
                 Quilombos 
               </h2>
@@ -47,7 +47,7 @@ const Projetos = () => {
           </figure>
         </div>
 
-         <div className="projeto">
+        <div className="projeto">
           <figure>
             <img
               src={mostraquilombola}
@@ -55,18 +55,18 @@ const Projetos = () => {
               className={styles.projetosImg}
             />
             <figcaption>
-              <a href="https://www.instagram.com/p/BftQ_3elqDq/" target="" all="Link de aceeso do projeto">Saiba Mais</a>
+              <a href="https://www.instagram.com/p/BftQ_3elqDq/" target="_blank" rel="noreferrer noopener" all="Link de aceeso do projeto">Saiba Mais</a>
               <h2 className={styles.subtitulo} id="titulo">
                 Mostra de Cinema
               </h2>
               <p className={styles.paragrafo}>
-               A primeira mostra de Cinema Quilombola foi realizada como parte da formação da escola de de Cinema Zumbi dos Palmares.
+                A primeira mostra de Cinema Quilombola foi realizada como parte da formação da escola de de Cinema Zumbi dos Palmares.
               </p>
             </figcaption>
           </figure>
         </div>
 
-         <div className="projeto">
+        <div className="projeto">
           <figure>
             <img
               src={escoladecinemaquilombola}
@@ -74,7 +74,7 @@ const Projetos = () => {
               className={styles.projetosImg}
             />
             <figcaption>
-              <a href="https://www.instagram.com/p/BRYcanpgMyA/" target="" all="Link de acesso">Saiba Mais</a>
+              <a href="https://www.instagram.com/p/BRYcanpgMyA/" target="_blank" rel="noreferrer noopener" all="Link de acesso">Saiba Mais</a>
               <h2 className={styles.subtitulo} id="titulo">
                 Ecola de Cinema 
               </h2>
@@ -84,6 +84,7 @@ const Projetos = () => {
             </figcaption>
           </figure>
         </div>
+
         <div className="projeto">
           <figure>
             <img
@@ -92,7 +93,7 @@ const Projetos = () => {
               className={styles.projetosImg}
             />
             <figcaption>
-              <a href="https://www.instagram.com/p/BFXCGUQq9tP/" target="" all="Link do projeto auto retrato">Saiba Mais</a>
+              <a href="https://www.instagram.com/p/BFXCGUQq9tP/" target="_blank" rel="noreferrer noopener" all="Link do projeto auto retrato">Saiba Mais</a>
               <h2 className={styles.subtitulo} id="titulo">
                 Auto Retrato
               </h2>
@@ -103,7 +104,7 @@ const Projetos = () => {
           </figure>
         </div>
 
-      <div className="projeto">
+        <div className="projeto">
           <figure>
             <img
               src={cineclube}
@@ -111,7 +112,7 @@ const Projetos = () => {
               className={styles.projetosImg}
             />
             <figcaption>
-              <a href="https://www.instagram.com/p/BAM_THxK9oS/" target="" all="Link de acesso do projeto">Saiba Mais</a>
+              <a href="https://www.instagram.com/p/BAM_THxK9oS/" target="_blank" rel="noreferrer noopener" all="Link de acesso do projeto">Saiba Mais</a>
               <h2 className={styles.subtitulo} id="titulo">
                 Cine Club
               </h2>
