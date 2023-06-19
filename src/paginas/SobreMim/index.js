@@ -22,7 +22,7 @@ export default function SobreMim() {
             />
 
             <p className={styles.paragrafo} id="p">
-               Sou quilombola e estudante de Biblioteconomia na Universidade Federal da Bahia (UFBA). Tenho experiência como produtor cultural na área do audiovisual, trabalhando em diversos projetos. Além disso, atuei na coordenação de equipes e na promoção de atividades relacionadas às artes e cultura. Essa experiência me proporcionou uma visão abrangente e um profundo entendimento do poder transformador que a cultura pode ter em nossa sociedade.
+             Sou um estudante Quilombola de Biblioteconomia e Documentação na Universidade Federal da Bahia. Durante o curso, tenho tido contato com muitas informações novas para mim. Ao descobrir a possibilidade de me tornar um desenvolvedor web, comecei a estudar tecnologias como HTML5, CSS e JavaScript. Espero poder desenvolver soluções tecnológicas para o campo cultural. Tenho experiência na área do audiovisual como produtor e assistente de som, tendo trabalhado em diversos projetos. Além disso, atuei na coordenação de equipes e na promoção de atividades relacionadas às artes e cultura. Essa experiência me proporcionou uma visão abrangente e um profundo entendimento do poder transformador que a cultura pode ter em nossa sociedade.
             </p>
             <p className={styles.paragrafo}>
                 Em destaque, coordenei a produção do livro 'Retratos do Parguaçu', um projeto que busca retratar a vida e as obras de 20 artistas visuais da cidade histórica de Cachoeira/BA, isso reforçou ainda mais minha convicção sobre o poder da cultura como agente de transformação social.
