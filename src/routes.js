@@ -10,7 +10,13 @@ import Rodape from "componentes/Rodape";
 
 function AppRoutes() {
   return (
+    
     <BrowserRouter>
+    <head>
+     <meta name="google-site-verification" content="S3j8Yc1tUYl9AssPAx6sQBJTC3aGBnh6OleMUjD9CD0" />
+    </head>
+    <body>
+      <main>
       <ScrollToTop />
       <Menu />
 
@@ -25,6 +31,8 @@ function AppRoutes() {
         <Route path="*" element={<NaoEncontrada />} />
       </Routes>
       <Rodape />
+        </main>
+      </body>
     </BrowserRouter>  
   );
 }
